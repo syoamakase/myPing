@@ -1,4 +1,4 @@
-all: myPing_1
+all: myPing
 
 %: %.c
 	gcc -Wall $< -o $@ -lpthread
